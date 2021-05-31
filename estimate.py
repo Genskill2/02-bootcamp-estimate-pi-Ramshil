@@ -7,8 +7,8 @@ def wallis(n):
   k=float(4*math.pow(i,2))
   product*=(k/(k-1))
  pi=2*product
- #return pi
- print(pi)
+ return pi
+ 
 
 def monte_carlo(n):
  count=0
@@ -21,8 +21,8 @@ def monte_carlo(n):
    count+=1
 
  pi=4*(count/n)
- #return pi
- print(pi)
+ return pi
+ 
 
 
 
