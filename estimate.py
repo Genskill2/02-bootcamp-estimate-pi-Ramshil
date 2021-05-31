@@ -2,11 +2,11 @@ import random
 import math
 
 def wallis(n):
- sum=0
+ prod=1
  for i in range(1,n+1):
   k=4*math.pow(i,2)
-  sum=sum+(k/(k-1))
- pi=2*sum
+  prod=prod*(k/(k-1))
+ pi=2*prod
  return pi
 
 def monte_carlo(n):
