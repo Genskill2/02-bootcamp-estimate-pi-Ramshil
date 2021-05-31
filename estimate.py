@@ -26,6 +26,3 @@ def monte_carlo(n):
 
 
 
-n=int(input("enter the number of times"))
-wallis(n)
-monte_carlo(n)
